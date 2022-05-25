@@ -11,7 +11,7 @@ pool:
   vmImage: ubuntu-latest
 variables:
   imageName: 'llteodoro/ansible'
-  imageVersion: '1.0'
+  imageVersion: '1.1'
   dockerFile: 'Dockerfile_ansible'
   tag: '$(Build.BuildId)'
 steps:
